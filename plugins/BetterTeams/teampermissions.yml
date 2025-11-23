@@ -104,3 +104,12 @@ pvp:
   rank: ADMIN
 chest:
   enabled: true
+deposit:
+  enabled: true
+  rank: DEFAULT
+bal:
+  enabled: true
+  rank: DEFAULT
+withdraw:
+  enabled: true
+  rank: ADMIN
