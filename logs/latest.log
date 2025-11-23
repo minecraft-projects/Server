@@ -294,3 +294,173 @@ java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.d
 [19:46:38] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
 [19:46:38] [Server thread/INFO]: thegrateminecra joined the game
 [19:46:38] [Server thread/INFO]: thegrateminecra[IP hidden] logged in with entity id 1 at ([world]-104.1357355764548, 67.0, 78.54749601623888)
+[19:46:58] [Async Chat Thread - #0/INFO]: < [VIP] thegrateminecra> hii
+[19:47:25] [luckperms-command-executor/INFO]: [LP] The changes received from the web editor were not made in a session started on this server!
+[19:47:25] [luckperms-command-executor/INFO]: [LP] Are you sure you're running the /lp applyedits command in the right place?
+[19:47:25] [luckperms-command-executor/INFO]: [LP] To ignore this warning and apply the changes anyway, run: /lp applyedits C8oIsGA7DV --force
+[19:47:33] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user thegrateminecra successfully.
+[19:47:33] [luckperms-command-executor/INFO]: [LP] (0 additions and 1 deletion)
+[19:47:33] [luckperms-command-executor/INFO]: -  group.vip (true)
+[19:47:33] [luckperms-command-executor/INFO]: [LP] vip was successfully deleted.
+[19:47:37] [Async Chat Thread - #0/INFO]: <thegrateminecra> hi
+[19:48:17] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[19:48:17] [Server thread/INFO]: thegrateminecra lost connection: Disconnected
+[19:48:17] [Server thread/INFO]: thegrateminecra left the game
+[19:48:17] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:61526, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -16, 86, 1, 80, -100, 94, -85, 8, 105, 35, 101, 1, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -52, 54, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 41, 40, 0, -1, 5, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -50, -101, 25, 19, 119, 100, 42, -61, 83, -56, 113, 19, 69, -19, -100, 39], tunnelServerId=1, dataCenterId=38}
+[19:48:17] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:48:17] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[19:48:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:48:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:48:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:48:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:48:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:48:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:48:17] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:48:21] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[19:48:21] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[19:48:21] [luckperms-command-executor/INFO]: https://luckperms.net/editor/d01703wSVf
+[19:48:25] [luckperms-worker-4/INFO]: [LP] Editor window connected successfully.
+[19:48:31] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[19:48:31] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[19:48:31] [luckperms-command-executor/INFO]: https://luckperms.net/editor/xFWQ00Jnih
+[19:48:34] [luckperms-worker-4/INFO]: [LP] Editor window connected successfully.
+[19:48:39] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:61533, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 110, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -16, 93, -29, -119, -36, -89, -85, 8, 105, 35, 101, 23, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, 84, -128, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 40, 39, 0, -1, 5, 32, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, -2, 42, 2, -44, 89, 16, -59, 72, -17, 118, 75, 73, -92, 60, 36, -35, 16, -23, 106], tunnelServerId=1, dataCenterId=38}
+[19:48:39] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:48:39] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[19:48:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:48:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:48:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:48:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:48:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:48:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:48:39] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:48:40] [User Authenticator #1/INFO]: UUID of player thegrateminecra is 0982c1ef-7286-4c5d-9353-f563b0004464
+[19:48:40] [Server thread/INFO]: thegrateminecra joined the game
+[19:48:40] [Server thread/INFO]: thegrateminecra[IP hidden] logged in with entity id 575 at ([world]-126.20616236810619, 76.0, 46.872967882760925)
+[19:48:43] [Async Chat Thread - #2/INFO]: <thegrateminecra> hi
+[19:49:43] [luckperms-worker-4/INFO]: [LP] Editor window reconnected successfully.
+[19:50:12] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:50:24] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:50:30] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:50:30] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to group default successfully.
+[19:50:30] [luckperms-worker-4/INFO]: [LP] (1 addition and 0 deletions)
+[19:50:30] [luckperms-worker-4/INFO]: +  prefix.0.&7[Member]  (true)
+[19:50:34] [Async Chat Thread - #4/INFO]: <[Member] thegrateminecra> hi
+[19:50:41] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=99.47.125.70:62350, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 118, -109, -71, -35, -62, 99, -35, 99, 47, 125, 70, -13, -114, 97, 75, -86, -8, -85, 8, 105, 35, 101, -111, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, 57, -48, -85, 8, 1, 4, -109, -71, -35, -62, -2, 42, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 41, 40, 0, -123, 6, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 2, -43, -69, -10, 73, -20, -34, 100, 110, -99, -128, 80, 18, 78, -108, 49, 57], tunnelServerId=1, dataCenterId=44}
+[19:50:41] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:50:41] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[19:50:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:50:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:50:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:50:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:50:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:50:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:50:41] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:50:56] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:50:56] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to group default successfully.
+[19:50:56] [luckperms-worker-4/INFO]: [LP] (1 addition and 1 deletion)
+[19:50:56] [luckperms-worker-4/INFO]: +  prefix.0.&7 [Member]  (true)
+[19:50:56] [luckperms-worker-4/INFO]: -  prefix.0.&7[Member]  (true)
+[19:50:58] [Async Chat Thread - #4/INFO]: < [Member] thegrateminecra> hi
+[19:51:00] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=99.47.125.70:57767, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 118, -109, -71, -35, -62, 99, -35, 99, 47, 125, 70, -31, -89, -93, 109, 60, -55, -85, 8, 105, 35, 101, -92, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -82, -95, -85, 8, 1, 4, -109, -71, -35, -62, -2, 42, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 41, 40, 0, -123, 6, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 95, -101, -74, -124, -90, 106, 29, -58, -2, 78, 96, -18, -76, -86, -121, -125], tunnelServerId=1, dataCenterId=44}
+[19:51:00] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:51:00] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[19:51:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:51:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:51:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:51:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:51:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:51:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:51:00] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:51:06] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:51:06] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to group default successfully.
+[19:51:06] [luckperms-worker-4/INFO]: [LP] (1 addition and 1 deletion)
+[19:51:06] [luckperms-worker-4/INFO]: +  prefix.0.&7[Member]  (true)
+[19:51:06] [luckperms-worker-4/INFO]: -  prefix.0.&7 [Member]  (true)
+[19:51:11] [Server thread/INFO]: Disconnecting killerzombie570 (IP hidden): Took too long to log in
+[19:51:11] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[19:51:11] [Server thread/INFO]: killerzombie570 (IP hidden) lost connection: Took too long to log in
+[19:51:39] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:51:39] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to group lord successfully.
+[19:51:39] [luckperms-worker-4/INFO]: [LP] (1 addition and 0 deletions)
+[19:51:39] [luckperms-worker-4/INFO]: +  prefix.0.&4[Lord] (true)
+[19:51:44] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:51:44] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to group lord successfully.
+[19:51:44] [luckperms-worker-4/INFO]: [LP] (1 addition and 0 deletions)
+[19:51:44] [luckperms-worker-4/INFO]: +  group.default (true)
+[19:51:56] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:51:56] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to user thegrateminecra successfully.
+[19:51:56] [luckperms-worker-4/INFO]: [LP] (1 addition and 1 deletion)
+[19:51:56] [luckperms-worker-4/INFO]: +  group.lord (true)
+[19:51:56] [luckperms-worker-4/INFO]: -  group.default (true)
+[19:51:56] [TAB Processing Thread/INFO]: [TAB] [WARN] Player thegrateminecra's group (lord) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:51:59] [Async Chat Thread - #6/INFO]: <[Lord]thegrateminecra> test
+[19:52:05] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:52:05] [luckperms-worker-4/WARN]: [LuckPerms] Exception occurred handling message from socket
+java.lang.IllegalArgumentException: group name is invalid
+	at me.lucko.luckperms.common.node.types.Inheritance$Builder.group(Inheritance.java:101) ~[?:?]
+	at me.lucko.luckperms.common.node.types.Inheritance.parse(Inheritance.java:82) ~[?:?]
+	at me.lucko.luckperms.common.node.factory.NodeBuilders.determineMostApplicable(NodeBuilders.java:65) ~[?:?]
+	at me.lucko.luckperms.common.node.utils.NodeJsonSerializer.deserializeNode(NodeJsonSerializer.java:101) ~[?:?]
+	at me.lucko.luckperms.common.node.utils.NodeJsonSerializer.deserializeNodes(NodeJsonSerializer.java:120) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.WebEditorResponse$ChangeApplier.applyHolderChange(WebEditorResponse.java:212) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.WebEditorResponse$ChangeApplier.applyChange(WebEditorResponse.java:170) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.WebEditorResponse.apply(WebEditorResponse.java:111) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.socket.listener.HandlerChangeRequest.handle(HandlerChangeRequest.java:87) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.handleMessageFrame(WebEditorSocketListener.java:146) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.lambda$onMessage$0(WebEditorSocketListener.java:90) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[19:52:34] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[19:52:34] [Server thread/INFO]: thegrateminecra lost connection: Disconnected
+[19:52:34] [Server thread/INFO]: thegrateminecra left the game
+[19:52:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:54710, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -43, -74, -87, 96, -95, -108, -85, 8, 105, 35, 102, 2, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -127, 108, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 41, 40, 0, -1, 5, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -68, 29, -22, 45, -59, -98, 66, -6, -31, 116, -111, -105, 98, 107, -124, 41], tunnelServerId=1, dataCenterId=38}
+[19:52:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:52:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[19:52:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:52:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:52:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:52:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:52:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:52:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:52:34] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:52:45] [luckperms-command-executor/INFO]: [LP] Command Usage - ApplyEdits
+[19:52:45] [luckperms-command-executor/INFO]: [LP] > Applies permission changes made from the web editor
+[19:52:45] [luckperms-command-executor/INFO]: [LP] Arguments:
+[19:52:45] [luckperms-command-executor/INFO]: [LP] - <code> -> the unique code for the data
+[19:52:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /time set day
+[19:52:58] [Server thread/INFO]: The time was set to 0 ticks in: world, world_nether, world_the_end.
+[19:53:00] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:54714, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 110, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -43, -70, -81, 17, 47, -70, -85, 8, 105, 35, 102, 28, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -100, -109, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 39, 0, -1, 5, 32, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, -2, 42, 2, -40, 39, 103, 81, -71, -8, -47, 114, 99, -12, 77, 31, 68, 1, 27, 87], tunnelServerId=1, dataCenterId=38}
+[19:53:00] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:53:00] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[19:53:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:53:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:53:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:53:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:53:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:53:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:53:00] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:53:01] [User Authenticator #2/INFO]: UUID of player thegrateminecra is 0982c1ef-7286-4c5d-9353-f563b0004464
+[19:53:01] [TAB Processing Thread/INFO]: [TAB] [WARN] Player thegrateminecra's group (lord) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:53:01] [Server thread/INFO]: thegrateminecra joined the game
+[19:53:01] [Server thread/INFO]: thegrateminecra[IP hidden] logged in with entity id 1193 at ([world]-115.31648473931334, 76.0, 11.598525924450806)
+[19:53:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /heal @a
+[19:53:18] [Server thread/INFO]: Error: Player not found.
+[19:53:24] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /heal thegrateminecra
+[19:53:24] [Server thread/INFO]: Healed [Lord]thegrateminecra.
+[19:53:41] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[19:53:41] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[19:53:41] [luckperms-command-executor/INFO]: https://luckperms.net/editor/wQn8pmYd3H
+[19:53:45] [luckperms-worker-3/INFO]: [LP] Editor window connected successfully.
+[19:53:50] [luckperms-worker-3/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:53:50] [luckperms-worker-3/INFO]: [LP] Web editor data was applied to group lord successfully.
+[19:53:50] [luckperms-worker-3/INFO]: [LP] (1 addition and 1 deletion)
+[19:53:50] [luckperms-worker-3/INFO]: +  prefix.0.&4[Lord]  (true)
+[19:53:50] [luckperms-worker-3/INFO]: -  prefix.0.&4[Lord] (true)
+[19:53:57] [Async Chat Thread - #8/INFO]: <[Lord] thegrateminecra> i am god
+[19:54:13] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:54:25] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
