@@ -650,3 +650,271 @@ java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.d
 [20:55:27] [Async Chat Thread - #2/INFO]: [Not Secure] <[Zombie] killerzombie570> GR
 [20:55:31] [Server thread/INFO]: [Not Secure] [Server] ?
 [20:55:42] [Async Chat Thread - #2/INFO]: [Not Secure] <[Zombie] killerzombie570> U LEFT ME
+[20:56:03] [Server thread/INFO]: [Not Secure] [Server] no
+[20:56:05] [Server thread/INFO]: [Not Secure] [Server] im back
+[20:56:06] [Async Chat Thread - #2/INFO]: [Not Secure] <[Zombie] killerzombie570> U DID
+[20:56:07] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:60863, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -19, -65, -31, -111, -35, -126, -85, 8, 105, 35, 116, -25, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, 6, 90, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 41, 40, 0, -1, 5, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 119, -108, 100, -101, -32, 96, -28, 9, 111, -83, -113, -41, 65, 99, -90, -77], tunnelServerId=1, dataCenterId=38}
+[20:56:07] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[20:56:07] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[20:56:07] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:60862, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 110, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -19, -66, -93, -62, 78, -58, -85, 8, 105, 35, 116, -25, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, 106, -97, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 39, 0, -1, 5, 32, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, -2, 42, 2, -96, -101, 44, 119, -44, -11, 34, 38, -6, -82, -81, 100, 74, -80, 115, 92], tunnelServerId=1, dataCenterId=38}
+[20:56:07] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[20:56:07] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[20:56:07] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[20:56:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[20:56:07] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[20:56:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[20:56:07] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[20:56:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[20:56:07] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[20:56:07] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[20:56:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[20:56:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[20:56:07] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[20:56:07] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[20:56:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[20:56:07] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[20:56:07] [User Authenticator #2/INFO]: UUID of player thegrateminecra is 1d93c810-09b5-34aa-bdfe-0192b576d29a
+[20:56:09] [TAB Processing Thread/INFO]: [TAB] [WARN] Player thegrateminecra's group (lord) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:56:09] [Server thread/INFO]: thegrateminecra joined the game
+[20:56:09] [Server thread/INFO]: thegrateminecra[IP hidden] logged in with entity id 4605 at ([world]47.27985577881568, 69.0, 467.1475612606318)
+[20:56:16] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> wa
+[20:56:22] [Server thread/INFO]: thegrateminecra was slain by killerzombie570
+[20:56:30] [Server thread/INFO]: thegrateminecra issued server command: /home
+[20:56:50] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> we said noo more killing
+[20:56:50] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> enjoyed the trap?
+[20:57:00] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> fine
+[20:57:07] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> i just did that bc u LEFT ME
+[20:57:07] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:57:12] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> :( sry
+[20:57:19] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:57:23] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> get ur stuff
+[20:57:27] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> its despawning
+[20:57:52] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> i have xray
+[20:57:57] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> ty
+[20:57:58] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> BETTTTTTTTTTT
+[20:58:03] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> LETS XRAY TOGETHER
+[20:58:07] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> oko
+[20:58:10] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> let me gett a ppick
+[20:58:23] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> turned my xray on
+[20:58:42] [Server thread/INFO]: killerzombie570 has made the advancement [Isn't It Iron Pick]
+[20:58:44] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> here
+[20:58:48] [Server thread/INFO]: thegrateminecra has made the advancement [Isn't It Iron Pick]
+[20:58:49] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> yaya
+[20:59:09] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> diamonds time
+[20:59:17] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> oh
+[20:59:20] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> i was gonna get iron first
+[20:59:23] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> XD
+[20:59:51] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> DIAMONDS
+[20:59:54] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> k
+[21:00:01] [Server thread/INFO]: killerzombie570 has made the advancement [Diamonds!]
+[21:00:02] [Server thread/INFO]: thegrateminecra issued server command: /sethome mine
+[21:00:14] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> coal
+[21:01:08] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:01:11] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> 41 coal btw
+[21:01:20] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:01:21] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> DANG
+[21:01:35] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> diamonds
+[21:01:45] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> u realize if u get lots of diamonds earlyy then it may rewin fun ..
+[21:02:03] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> ok
+[21:02:13] [Async Chat Thread - #3/INFO]: [Not Secure] <[Zombie] killerzombie570> ill not get alot
+[21:02:17] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> ko
+[21:02:18] [Async Chat Thread - #3/INFO]: [Not Secure] <[Lord] thegrateminecra> ok
+[21:03:00] [Server thread/INFO]: thegrateminecra issued server command: /home
+[21:03:03] [Server thread/INFO]: thegrateminecra issued server command: /home home
+[21:03:05] [Server thread/INFO]: thegrateminecra slept. Everyone, good night!
+[21:03:08] [Server thread/INFO]: Good morning everyone!
+[21:03:09] [Server thread/INFO]: [Server: Saving the game...]
+[21:03:09] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:03:09] [Server thread/INFO]: Saved the game
+[21:04:36] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> is the ip address weird
+[21:04:37] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> ?
+[21:04:39] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> for this server
+[21:04:45] [Async Chat Thread - #4/INFO]: [Not Secure] <[Zombie] killerzombie570> a bit
+[21:04:54] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> lol
+[21:05:08] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:05:20] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:05:26] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> i mean it works
+[21:05:56] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> let me test smth
+[21:05:57] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[21:05:57] [Server thread/INFO]: thegrateminecra lost connection: Disconnected
+[21:05:57] [Server thread/INFO]: thegrateminecra left the game
+[21:05:58] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:50362, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -60, -70, 87, 94, -104, 60, -85, 8, 105, 35, 119, 54, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, 57, 20, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 41, 40, 0, -1, 5, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -70, -108, -56, 65, -100, -8, 35, -51, 19, 2, 119, -30, -30, 47, -36, 78], tunnelServerId=1, dataCenterId=38}
+[21:05:58] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:05:58] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[21:05:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:05:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:05:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:05:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:05:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:05:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:05:58] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:06:31] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:59331, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -25, -61, 28, -21, 123, 14, -85, 8, 105, 35, 119, 87, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -17, -26, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 41, 40, 0, -1, 5, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 93, 91, 8, 1, -58, -45, -53, -72, -69, -32, 118, -5, -80, 62, 23, 99], tunnelServerId=1, dataCenterId=38}
+[21:06:31] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:06:31] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[21:06:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:06:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:06:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:06:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:06:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:06:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:06:31] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:06:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:59332, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 110, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -25, -60, -98, 104, -30, 73, -85, 8, 105, 35, 119, 90, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -23, 34, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 40, 39, 0, -1, 5, 32, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, -2, 42, 2, -113, 43, 105, -80, -122, 116, -31, -123, -98, 91, 32, 91, 26, -45, 13, -113], tunnelServerId=1, dataCenterId=38}
+[21:06:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:06:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[21:06:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:06:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:06:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:06:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:06:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:06:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:06:34] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:06:34] [User Authenticator #3/INFO]: UUID of player thegrateminecra is 1d93c810-09b5-34aa-bdfe-0192b576d29a
+[21:06:34] [TAB Processing Thread/INFO]: [TAB] [WARN] Player thegrateminecra's group (lord) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[21:06:34] [Server thread/INFO]: thegrateminecra joined the game
+[21:06:34] [Server thread/INFO]: thegrateminecra[IP hidden] logged in with entity id 6654 at ([world]65.59203999501707, 68.0, 467.83587328169807)
+[21:06:40] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> i cant find numerical
+[21:06:42] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> sry
+[21:06:50] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[21:06:50] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[21:06:50] [Server thread/INFO]: thegrateminecra lost connection: Disconnected
+[21:06:50] [Server thread/INFO]: thegrateminecra left the game
+[21:06:50] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:59339, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -25, -53, -61, -29, 29, -5, -85, 8, 105, 35, 119, 106, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -48, -45, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 41, 40, 0, -1, 5, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 91, 23, 120, -25, -23, -121, 11, 108, 115, 107, -52, -9, -3, 55, -69, -113], tunnelServerId=1, dataCenterId=38}
+[21:06:50] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:06:50] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[21:06:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:06:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:06:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:06:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:06:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:06:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:06:50] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:06:52] [Async Chat Thread - #4/INFO]: [Not Secure] <[Zombie] killerzombie570> its ok
+[21:06:53] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:59342, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -25, -50, 85, 86, -22, 55, -85, 8, 105, 35, 119, 109, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, -65, 15, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 41, 40, 0, -1, 5, 33, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -118, -119, 113, -116, -34, 13, 27, 43, 28, -82, -13, 97, -45, 83, -6, 60], tunnelServerId=1, dataCenterId=38}
+[21:06:53] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:06:53] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[21:06:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:06:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:06:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:06:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:06:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:06:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:06:53] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:06:55] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:65066, peerAddr=185.188.40.45:59343, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 110, -109, -71, -35, -62, -2, 42, -71, -68, 40, 45, -25, -49, -5, 46, -1, 30, -85, 8, 105, 35, 119, 111, 0, 0, 0, 0, 0, 25, -84, -34, 0, 0, 0, 0, 0, 80, -80, -93, 0, 0, 0, 0, 0, 40, -9, -7, 94, -9, -85, 8, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 40, 39, 0, -1, 5, 32, 104, 111, 117, 115, 105, 110, 103, 45, 101, 97, 114, 116, 104, 113, 117, 97, 107, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, -2, 42, 2, -47, 58, -46, -49, 42, -36, 118, -20, -113, 90, 93, -116, -105, 98, 56, -102], tunnelServerId=1, dataCenterId=38}
+[21:06:55] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:06:55] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[21:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:06:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:06:55] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:06:55] [User Authenticator #3/INFO]: UUID of player thegrateminecra is 1d93c810-09b5-34aa-bdfe-0192b576d29a
+[21:06:55] [TAB Processing Thread/INFO]: [TAB] [WARN] Player thegrateminecra's group (lord) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[21:06:55] [Server thread/INFO]: thegrateminecra joined the game
+[21:06:55] [Server thread/INFO]: thegrateminecra[IP hidden] logged in with entity id 6698 at ([world]62.30000001192093, 68.0, 469.3886532618722)
+[21:06:59] [Async Chat Thread - #4/INFO]: [Not Secure] <[Zombie] killerzombie570> btw
+[21:06:59] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> nope
+[21:07:02] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> ?
+[21:07:10] [Async Chat Thread - #4/INFO]: [Not Secure] <[Zombie] killerzombie570> does the hacks u use work for cracked to
+[21:07:17] [Async Chat Thread - #4/INFO]: [Not Secure] <[Lord] thegrateminecra> im not hacking tho
+[21:07:21] [Async Chat Thread - #5/INFO]: [Not Secure] <[Lord] thegrateminecra> but yes
+[21:07:26] [Async Chat Thread - #5/INFO]: [Not Secure] <[Zombie] killerzombie570> o w
+[21:07:32] [Async Chat Thread - #5/INFO]: [Not Secure] <[Lord] thegrateminecra> im legit
+[21:07:42] [Server thread/INFO]: killerzombie570 issued server command: /sellall hand
+[21:07:42] [Server thread/INFO]: Shop >> killerzombie570 sold 54 x Dirt(Blocks.page3.items.109) for $40.50 with the sell all command.
+[21:07:47] [Server thread/INFO]: killerzombie570 issued server command: /shop
+[21:07:58] [Server thread/INFO]: Shop >> killerzombie570 bought 1 x Oak Planks(Blocks.page5.items.231) for $1.11 with the buy screen.
+[21:07:58] [Server thread/INFO]: Shop >> killerzombie570 bought 1 x Oak Planks(Blocks.page5.items.231) for $1.11 with the buy screen.
+[21:07:58] [Server thread/INFO]: thegrateminecra has made the advancement [Suit Up]
+[21:08:05] [Server thread/INFO]: killerzombie570 issued server command: /shop
+[21:08:11] [Server thread/INFO]: thegrateminecra issued server command: /tpa killerzombie570
+[21:08:14] [Server thread/INFO]: Shop >> killerzombie570 bought 4 x Oak Planks(Blocks.page5.items.231) for $4.44 with the buy screen.
+[21:08:15] [Server thread/INFO]: thegrateminecra issued server command: /shop
+[21:08:18] [Server thread/INFO]: Shop >> thegrateminecra bought 1 x Cooked Beef(Food.page1.items.11) for $6.30 with the buy screen.
+[21:08:18] [Server thread/INFO]: Shop >> thegrateminecra bought 1 x Cooked Beef(Food.page1.items.11) for $6.30 with the buy screen.
+[21:08:18] [Server thread/INFO]: Shop >> thegrateminecra bought 1 x Cooked Beef(Food.page1.items.11) for $6.30 with the buy screen.
+[21:08:37] [Async Chat Thread - #6/INFO]: [Not Secure] <[Lord] thegrateminecra> what ya doin
+[21:08:43] [Server thread/INFO]: killerzombie570 has made the advancement [Cover Me with Diamonds]
+[21:08:47] [Async Chat Thread - #6/INFO]: [Not Secure] <[Lord] thegrateminecra> dayum
+[21:08:49] [Server thread/INFO]: thegrateminecra issued server command: /tpacancel
+[21:09:10] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:09:22] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:09:25] [Server thread/INFO]: killerzombie570 issued server command: /shop
+[21:09:32] [Server thread/INFO]: Shop >> killerzombie570 bought 17 x Oak Planks(Blocks.page5.items.231) for $18.87 with the buy screen.
+[21:09:42] [Server thread/INFO]: thegrateminecra issued server command: /home mine
+[21:10:24] [Server thread/INFO]: killerzombie570 issued server command: /tpa thegrateminecra
+[21:10:26] [Server thread/INFO]: thegrateminecra issued server command: /tpaccept
+[21:10:39] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> i xrayed for gravel
+[21:10:43] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> so we dont rn into a situatino
+[21:10:45] [Async Chat Thread - #8/INFO]: [Not Secure] <[Zombie] killerzombie570> now i can kill everything for brains :D
+[21:10:45] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> were we need it
+[21:10:49] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> ::D
+[21:10:53] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> even iron guys
+[21:11:10] [Async Chat Thread - #8/INFO]: [Not Secure] <[Zombie] killerzombie570> yup this looks like xray
+[21:11:13] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> did u not do /sethome home
+[21:11:22] [Async Chat Thread - #8/INFO]: [Not Secure] <[Zombie] killerzombie570> nope
+[21:11:26] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> o well
+[21:11:51] [Async Chat Thread - #8/INFO]: [Not Secure] <[Zombie] killerzombie570> lava pool
+[21:11:53] [Server thread/INFO]: thegrateminecra issued server command: /home home
+[21:11:54] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> nice
+[21:11:59] [Server thread/INFO]: thegrateminecra issued server command: /home mine
+[21:12:19] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+[21:12:21] [Async Chat Thread - #8/INFO]: [Not Secure] <[Zombie] killerzombie570> MY LAG IS FINNA MAKE ME JUMP INTO THE LAVA
+[21:12:28] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> o
+[21:12:30] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> why u lagging
+[21:12:48] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> ig uhad a ping spikek lo
+[21:12:54] [Async Chat Thread - #8/INFO]: [Not Secure] <[Zombie] killerzombie570> CUZ I CAN
+[21:12:58] [Async Chat Thread - #8/INFO]: [Not Secure] <[Lord] thegrateminecra> .. okk
+[21:13:00] [Server thread/INFO]: thegrateminecra issued server command: /home home
+[21:13:10] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:13:11] [Server thread/INFO]: thegrateminecra slept. Everyone, good night!
+[21:13:15] [Server thread/INFO]: Good morning everyone!
+[21:13:15] [Server thread/INFO]: [Server: Saving the game...]
+[21:13:15] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:13:15] [Server thread/INFO]: Saved the game
+[21:13:22] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:13:31] [Server thread/INFO]: thegrateminecra issued server command: /home mine
+[21:13:58] [Server thread/INFO]: thegrateminecra issued server command: /home home
+[21:15:05] [Server thread/INFO]: killerzombie570 has made the advancement [Ice Bucket Challenge]
+[21:15:30] [Async Chat Thread - #10/INFO]: [Not Secure] <[Lord] thegrateminecra> man
+[21:15:40] [Async Chat Thread - #10/INFO]: [Not Secure] <[Lord] thegrateminecra> i just crafted a spair pair of boots
+[21:16:52] [Server thread/INFO]: thegrateminecra issued server command: /home home
+[21:17:10] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:17:22] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:18:36] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> we hahve
+[21:18:38] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> flint at base
+[21:18:40] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> oh
+[21:18:41] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> u have it
+[21:18:53] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> can i go in ?
+[21:18:55] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> stay here
+[21:18:58] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> ok
+[21:19:01] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> il see the spawn
+[21:19:04] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> k
+[21:19:06] [Server thread/INFO]: thegrateminecra issued server command: /home home
+[21:19:08] [Server thread/INFO]: killerzombie570 has made the advancement [We Need to Go Deeper]
+[21:19:36] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> tbh not that bad
+[21:19:40] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> ncie
+[21:19:41] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> u can come in
+[21:19:45] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> tk
+[21:19:51] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> comming in
+[21:20:03] [Server thread/INFO]: thegrateminecra has made the advancement [We Need to Go Deeper]
+[21:20:21] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> i mean chould be worse
+[21:20:28] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> like a basult delter
+[21:20:32] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> yeya
+[21:20:49] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> RUN
+[21:21:11] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:21:20] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> u owe me
+[21:21:23] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:21:23] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> i just saved u
+[21:21:25] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> koi
+[21:21:27] [Server thread/INFO]: thegrateminecra issued server command: /home home
+[21:21:33] [Async Chat Thread - #12/INFO]: [Not Secure] <[Lord] thegrateminecra> i tpd to hoome lol
+[21:21:37] [Server thread/INFO]: thegrateminecra issued server command: /shop
+[21:21:37] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> lol
+[21:21:39] [Server thread/INFO]: Shop >> thegrateminecra bought 1 x Cooked Beef(Food.page1.items.11) for $6.30 with the buy screen.
+[21:21:39] [Server thread/INFO]: Shop >> thegrateminecra bought 1 x Cooked Beef(Food.page1.items.11) for $6.30 with the buy screen.
+[21:21:39] [Server thread/INFO]: Shop >> thegrateminecra bought 1 x Cooked Beef(Food.page1.items.11) for $6.30 with the buy screen.
+[21:22:05] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> ima rejoin
+[21:22:06] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> lag
+[21:22:12] [Async Chat Thread - #12/INFO]: [Not Secure] <[Zombie] killerzombie570> stay here

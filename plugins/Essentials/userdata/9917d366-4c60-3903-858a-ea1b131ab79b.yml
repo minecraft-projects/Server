@@ -11,20 +11,20 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1763932226843
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 0
   login: 1763929768603
-money: '0'
+money: '14.97'
 last-account-name: killerzombie570
 lastlocation:
   world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
   world-name: world
-  x: 0.0
-  y: 80.0
-  z: 0.4144285483924013
-  yaw: -14.699995994567871
-  pitch: 13.200000762939453
+  x: 56.30000001192093
+  y: -51.0
+  z: 472.74666033222104
+  yaw: -4.14111328125
+  pitch: 63.00004577636719
