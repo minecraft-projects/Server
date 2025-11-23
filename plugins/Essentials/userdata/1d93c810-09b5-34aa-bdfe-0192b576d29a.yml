@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1763929810073
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1763929313485
-  login: 1763929254622
+  login: 1763929752674
 money: '0'
 last-account-name: thegrateminecra
 lastlocation:
   world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
   world-name: world
-  x: 7.5
-  y: 80.0
-  z: 5.5
-  yaw: 0.0
-  pitch: 0.0
+  x: -43.245473573917856
+  y: 78.16610926093821
+  z: -6.886769588984399
+  yaw: -97.350341796875
+  pitch: -14.849997520446777
 logoutlocation:
   world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
   world-name: world
