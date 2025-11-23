@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1763929313485
+  login: 1763929254622
+money: '0'
+last-account-name: thegrateminecra
+lastlocation:
+  world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
+  world-name: world
+  x: 7.5
+  y: 80.0
+  z: 5.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
+  world-name: world
+  x: -45.296536867147225
+  y: 78.0
+  z: -5.517812445524774
+  yaw: -149.1001434326172
+  pitch: 42.30006408691406

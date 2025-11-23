@@ -1,4 +1,6 @@
 storageType: YAML
-teamNameLookup: []
-playerLookup: []
+teamNameLookup:
+- lords:981e31b2-5477-4345-9f9c-daf7e182d73c
+playerLookup:
+- 0982c1ef-7286-4c5d-9353-f563b0004464:981e31b2-5477-4345-9f9c-daf7e182d73c
 chestClaims: []
