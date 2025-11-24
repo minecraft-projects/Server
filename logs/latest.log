@@ -1,30 +1,30 @@
-[07:08:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS; Microsoft Microsoft-12574458) on Linux 6.8.0-1030-azure (amd64)
-[07:08:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-115-main@af06383 (2025-11-21T23:42:01Z) for Minecraft 1.21.10
-[07:08:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[07:08:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
-[07:08:55] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[07:32:42] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS; Microsoft Microsoft-12574458) on Linux 6.8.0-1030-azure (amd64)
+[07:32:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-115-main@af06383 (2025-11-21T23:42:01Z) for Minecraft 1.21.10
+[07:32:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:32:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[07:32:43] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (6.15.1)
-[07:08:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
- - AxInventoryRestore (3.10.0), AxTrade (1.20.4), AxVaults (2.10.0), BetterTeams (4.15.2), DoubleDoors (1.4), Essentials (2.22.0-dev+44-87dfe37), EssentialsChat (2.22.0-dev+44-87dfe37), EssentialsDiscord (2.22.0-dev+44-87dfe37), EssentialsDiscordLink (2.22.0-dev+44-87dfe37), EssentialsSpawn (2.22.0-dev+44-87dfe37), LoginSecurity (3.3.1), LuckPerms (5.5.20), NexusAuctionHouse (2.2.1), SinglePlayerSleep (1.1.0), SkinsRestorer (15.9.0), TAB (5.3.2), Vault (1.7.3-b131), ViaBackwards (5.5.1), ViaVersion (5.5.1), playit-gg (0.1.4)
-[07:09:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[07:09:02] [ServerMain/INFO]: Loaded 1461 recipes
-[07:09:02] [ServerMain/INFO]: Loaded 1574 advancements
-[07:09:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[07:09:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 390.7ms
-[07:09:03] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[07:09:03] [Server thread/INFO]: Loading properties
-[07:09:03] [Server thread/INFO]: This server is running Paper version 1.21.10-115-main@af06383 (2025-11-21T23:42:01Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
-[07:09:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[07:09:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:09:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:09:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[07:09:04] [Server thread/INFO]: Default game type: SURVIVAL
-[07:09:04] [Server thread/INFO]: Generating keypair
-[07:09:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:09:04] [Server thread/INFO]: Using epoll channel type
-[07:09:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[07:09:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[07:09:05] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'NexusAuctionHouse-2.2.1.jar' in folder 'plugins/.paper-remapped'
+[07:32:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - AuthMe (5.6.0-bCUSTOM), AxInventoryRestore (3.10.0), AxTrade (1.20.4), AxVaults (2.10.0), BetterTeams (4.15.2), DoubleDoors (1.4), Essentials (2.22.0-dev+44-87dfe37), EssentialsChat (2.22.0-dev+44-87dfe37), EssentialsDiscord (2.22.0-dev+44-87dfe37), EssentialsDiscordLink (2.22.0-dev+44-87dfe37), EssentialsSpawn (2.22.0-dev+44-87dfe37), LuckPerms (5.5.20), NexusAuctionHouse (2.2.1), SinglePlayerSleep (1.1.0), SkinsRestorer (15.9.0), TAB (5.3.2), Vault (1.7.3-b131), ViaBackwards (5.5.1), ViaVersion (5.5.1), playit-gg (0.1.4)
+[07:32:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:32:50] [ServerMain/INFO]: Loaded 1461 recipes
+[07:32:50] [ServerMain/INFO]: Loaded 1574 advancements
+[07:32:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:32:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 339.7ms
+[07:32:51] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[07:32:51] [Server thread/INFO]: Loading properties
+[07:32:51] [Server thread/INFO]: This server is running Paper version 1.21.10-115-main@af06383 (2025-11-21T23:42:01Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[07:32:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:32:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:32:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:32:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:32:52] [Server thread/INFO]: Default game type: SURVIVAL
+[07:32:52] [Server thread/INFO]: Generating keypair
+[07:32:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:32:52] [Server thread/INFO]: Using epoll channel type
+[07:32:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:32:52] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:32:53] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'NexusAuctionHouse-2.2.1.jar' in folder 'plugins/.paper-remapped'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: cc/synkdev/synkLibs/components/SynkPlugin
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.10.jar:1.21.10-115-af06383]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.10.jar:1.21.10-115-af06383]
@@ -69,33 +69,68 @@ Caused by: java.lang.ClassNotFoundException: cc.synkdev.synkLibs.components.Synk
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.10.jar:1.21.10-115-af06383]
 	... 9 more
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loading 2 libraries... please wait
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/net/dv8tion/JDA/5.2.2/JDA-5.2.2.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/neovisionaries/nv-websocket-client/2.14/nv-websocket-client-2.14.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/opus-java/1.1.1/opus-java-1.1.1.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/opus-java-api/1.1.1/opus-java-api-1.1.1.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/opus-java-natives/1.1.1/opus-java-natives-1.1.1.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/net/sf/trove4j/core/3.1.0/core-3.1.0.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/crypto/tink/tink/1.14.1/tink-1.14.1.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/errorprone/error_prone_annotations/2.22.0/error_prone_annotations-2.22.0.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/protobuf/protobuf-java/3.25.3/protobuf-java-3.25.3.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/discord-webhooks/0.8.4/discord-webhooks-0.8.4.jar
-[07:09:05] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/json/json/20230618/json-20230618.jar
-[07:09:06] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
-[07:09:06] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loading 2 libraries... please wait
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/net/dv8tion/JDA/5.2.2/JDA-5.2.2.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/neovisionaries/nv-websocket-client/2.14/nv-websocket-client-2.14.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/opus-java/1.1.1/opus-java-1.1.1.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/opus-java-api/1.1.1/opus-java-api-1.1.1.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/opus-java-natives/1.1.1/opus-java-natives-1.1.1.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/net/sf/trove4j/core/3.1.0/core-3.1.0.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/crypto/tink/tink/1.14.1/tink-1.14.1.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/errorprone/error_prone_annotations/2.22.0/error_prone_annotations-2.22.0.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/com/google/protobuf/protobuf-java/3.25.3/protobuf-java-3.25.3.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/club/minnced/discord-webhooks/0.8.4/discord-webhooks-0.8.4.jar
+[07:32:53] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/libraries/org/json/json/20230618/json-20230618.jar
+[07:32:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
+[07:32:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[07:32:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:32:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:32:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:32:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:32:56] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.20
+[07:32:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:32:57] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:32:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+44-87dfe37
+[07:32:57] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+44-87dfe37
+[07:32:57] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.22.0-dev+44-87dfe37
+[07:32:57] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
+[07:32:57] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+44-87dfe37
+[07:32:57] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
+[07:32:57] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.10.0
+[07:32:57] [Server thread/INFO]: [net.essentialsx.discordlink.EssentialsDiscordLink] Loading server plugin EssentialsDiscordLink v2.22.0-dev+44-87dfe37
+[07:32:57] [Server thread/INFO]: [AxInventoryRestore] Loading server plugin AxInventoryRestore v3.10.0
+[07:32:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.0
+[07:32:57] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[07:32:57] [Server thread/INFO]: [AxTrade] Loading server plugin AxTrade v1.20.4
+[07:32:57] [Server thread/INFO]: [DoubleDoors] Loading server plugin DoubleDoors v1.4
+[07:32:57] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[07:32:57] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.15.2
+[07:32:57] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[07:32:57] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[07:32:57] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.15.1
+[07:32:57] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.1.0
+[07:32:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:32:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.20
+[07:32:58] [Server thread/INFO]:         __    
+[07:32:58] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.20
+[07:32:58] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:32:58] [Server thread/INFO]: 
+[07:32:58] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:32:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:32:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
