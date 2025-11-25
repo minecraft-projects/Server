@@ -2,16 +2,16 @@
 # This file tracks usage statistics for the plugin
 
 # Total number of sleep events triggered
-total-sleep-count: 11
+total-sleep-count: 21
 
 # Total number of manual night skips
 manual-skips: 0
 
 # Last time statistics were updated (timestamp)
-last-updated: 1763969639589
+last-updated: 1764055087763
 
 # Plugin version when statistics were created
 version: 1.1.0
 player-sleep-counts:
-  killerzombie570: 1
-  thegrateminecra: 10
+  killerzombie570: 3
+  thegrateminecra: 18

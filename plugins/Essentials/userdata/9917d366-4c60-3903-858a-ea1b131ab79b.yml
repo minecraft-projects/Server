@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1763935386952
+  lastteleport: 1764017100218
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1763935445833
-  login: 1763933049566
-money: '14.97'
+  logout: 1764018532911
+  login: 1764018366636
+money: '2.35'
 last-account-name: killerzombie570
 lastlocation:
   world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
   world-name: world
-  x: 59.30000001192093
-  y: 68.7531999805212
-  z: 478.95966588628494
-  yaw: -143.10791015625
-  pitch: 31.19989013671875
+  x: 51.69999998807907
+  y: 58.0
+  z: 472.6970861757003
+  yaw: 140.8387451171875
+  pitch: 84.75000762939453
 logoutlocation:
   world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
   world-name: world
-  x: 19.51892675059755
-  y: 74.0
-  z: 31.474415952226245
-  yaw: -154.50015258789062
-  pitch: 5.250024318695068
+  x: 51.330587025488185
+  y: 71.25220334025373
+  z: 468.62108814360766
+  yaw: -178.502685546875
+  pitch: 21.449695587158203
 homes:
   home:
     world: eef0afc6-15ee-454a-b943-cbd23ed08ad7

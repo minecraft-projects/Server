@@ -1,0 +1,16 @@
+name: Lords
+description: ''
+open: false
+pvp: false
+anchor: false
+home: ''
+color: '6'
+chests: []
+players:
+- 9917d366-4c60-3903-858a-ea1b131ab79b,DEFAULT
+- 1d93c810-09b5-34aa-bdfe-0192b576d29a,OWNER
+anchoredPlayers: []
+level: 1
+tag: ''
+score: 0
+echest: {}

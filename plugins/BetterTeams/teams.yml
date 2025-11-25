@@ -1,6 +1,8 @@
 storageType: YAML
 teamNameLookup:
-- lords:981e31b2-5477-4345-9f9c-daf7e182d73c
+- lords:2a37c732-92b8-4cc0-865b-40dd765cb87c
 playerLookup:
-- 0982c1ef-7286-4c5d-9353-f563b0004464:981e31b2-5477-4345-9f9c-daf7e182d73c
+- 9917d366-4c60-3903-858a-ea1b131ab79b:2a37c732-92b8-4cc0-865b-40dd765cb87c
+- 1d93c810-09b5-34aa-bdfe-0192b576d29a:2a37c732-92b8-4cc0-865b-40dd765cb87c
 chestClaims: []
+holos: []

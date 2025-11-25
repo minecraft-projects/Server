@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1763969929068
+  lastteleport: 1764054710615
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1763970196494
-  login: 1763969676402
-money: '136.6'
+  logout: 1764055088349
+  login: 1764055040037
+money: '378.66'
 last-account-name: thegrateminecra
 lastlocation:
   world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
   world-name: world
-  x: 58.30000001192093
-  y: 70.0
-  z: 540.5793321941884
-  yaw: -106.0474853515625
-  pitch: 37.35017013549805
+  x: -88.63810170232567
+  y: 62.0
+  z: 155.95791604631071
+  yaw: -176.55303955078125
+  pitch: 7.350140571594238
 logoutlocation:
   world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
   world-name: world
-  x: 51.93233296231594
-  y: 70.0
-  z: 469.5707695554999
-  yaw: -132.30377197265625
-  pitch: 36.74998474121094
+  x: -84.42979712745499
+  y: 63.0
+  z: 147.3115132058136
+  yaw: -1.9533048868179321
+  pitch: 32.09999084472656
 homes:
   home:
     world: eef0afc6-15ee-454a-b943-cbd23ed08ad7
@@ -53,3 +53,11 @@ homes:
     z: 291.6483367779581
     yaw: -171.89581298828125
     pitch: 14.54974365234375
+  nether_fortress:
+    world: d683177c-8a15-4483-b2f7-d333b010f563
+    world-name: world_nether
+    x: 450.7673762677574
+    y: 68.0
+    z: -46.8399976466974
+    yaw: 31.338499069213867
+    pitch: 28.050321578979492

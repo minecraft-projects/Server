@@ -1,0 +1,171 @@
+###############################################################################
+# DOCUMENTATION
+###############################################################################
+# Thank you for using ToastedAFK Lite!
+# For support join our discord server and create a ticket
+# ➥ discord.gg/dn8YE2Ctbv
+#
+# Commands:
+#  - /tafk <wand/save/reload/item> (aliases: /afk)
+#     Used for various AFK-related actions
+#  - /silentgive {player} <item> <amount>(optional, default: 1)
+#     Gives items silently, even with NBT data
+#     For custom items, use {item_name} from the 'items' section
+#     Example: /sgive {player} {test3} 2
+###############################################################################
+
+###############################################################################
+# GENERAL SETTINGS
+###############################################################################
+# Update and Feature Settings
+check_for_update: true        # Notifies about new updates on Spigot
+use_probability_feature: false # Enables probability-based command execution
+use_random_feature: false     # Enables 50/50 chance command execution
+use_commands: true            # Enables standard command execution
+reward_synchronization: false # Uses only default_afk_time if true
+
+# Timing Settings
+how_often_all_players_and_region_checked: 1  # Check interval in seconds
+default_afk_time: 1200                       # Default AFK time in seconds
+
+# Permission-based AFK Times
+afk_times:
+  default: 1200  # Default AFK time in seconds
+  # Add more permission-based times here, e.g.:
+  # vip: 600
+  # mvp: 300
+
+###############################################################################
+# REGION CONFIGURATION
+###############################################################################
+region:
+  locations:
+    world: world
+    loc1:  # First corner of the AFK region
+      x: x
+      y: y
+      z: z
+    loc2:  # Second corner of the AFK region
+      x: x
+      y: y
+      z: z
+
+###############################################################################
+# MESSAGES AND REGION-SPECIFIC SETTINGS
+###############################################################################
+placeholder_not_in_afk_region: "Not in AFK Zone"
+silent_player_inventory_full: "&cYour inventory is full, therefore you will not receive anything!"
+player_entered_region: "&cYou &fentered &can afk region!"
+player_left_region: "&cYou just &fleft &cthe afk region!"
+show_xp_bar: true       # Shows XP bar when player is in the AFK region (BETA)
+save_xp_inside_region: false
+
+# Timeout Configuration
+timeout:
+  times: 0  # Set to 0 to disable this feature
+  commands:
+    - "msg {player} you have been teleported back to spawn!"
+    # - "tp {player} -2217 94 -490"
+
+###############################################################################
+# DISPLAY SETTINGS
+###############################################################################
+# Action Bar Configuration
+actionbar:
+  show: false
+  show_timer: true
+  messages:
+    sg_day: " day, "
+    pl_day: " days, "
+    sg_hour: " hour, "
+    pl_hour: " hours, "
+    sg_minute: " minute, "
+    pl_minute: " minutes, "
+    0_seconds: " Resetting!"
+    sg_second: " second."
+    pl_second: " seconds."
+    before_msg: "{player} >> time left >> "
+
+# Loading Screen Configuration
+# Use {loadingScreenBar} or {loadingScreenPercentage} in messages
+loading_screen:
+  totalTiles: 10
+  symbol: "|"
+  loading_color: "&7"
+  loading_complete: "&a"
+
+# Boss Bar Configuration
+bossbar:
+  show: false
+  color: "RED"
+  style: "SOLID"
+  text: "Idk"  # Use {timer} to show the same text as actionbar
+
+# Title Screen Configuration
+title_screen:
+  show: true
+  title: "&7[{loadingScreenBar}&7]"
+  subtitle: "&c{loadingScreenPercentage}%"
+
+###############################################################################
+# COMMAND EXECUTION SETTINGS
+###############################################################################
+# Standard Commands
+commands:
+  - "msg {player} you were afk!"
+  - "eco give {player} 100"
+  # - "silentgive {player} {test3}"
+
+# Random Command Execution
+random_commands:
+  times: 2  # Number of commands to execute from each list
+  list:
+    test1:
+      - "msg {player} this is test1"
+      - "msg {player} random 1"
+    test2:
+      - "msg {player} this is test2"
+      - "msg {player} random 2"
+    test3:
+      - "msg {player} this is test3"
+      - "msg {player} random 3"
+
+# Probability-based Command Execution
+probability_commands:
+  first_prob:
+    commands:
+      - "msg {player} first_prob"
+      - "msg {player} 50%"
+    chance: 50.0
+  second_prob:
+    commands:
+      - "msg {player} second_prob"
+      - "msg {player} 35%"
+    chance: 35.0
+  third_prob:
+    commands:
+      - "msg {player} third_prob"
+      - "msg {player} 15%"
+    chance: 15.0
+
+###############################################################################
+# COMMAND RESTRICTION SETTINGS
+###############################################################################
+on_command_deny: "&cYou cannot use this command here"
+denied_commands:
+  - "/shop"
+  # Add more commands to deny here
+
+###############################################################################
+# CUSTOM ITEM DEFINITIONS
+###############################################################################
+items:
+  test3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"italic":false,"color":"red","text":"TESTING"}],"text":""}'
+      Unbreakable: true

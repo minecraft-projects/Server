@@ -12,10 +12,10 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "INSERT-TOKEN-HERE"
+token: ""
 
 # The ID of your server.
-guild: 000000000000000000
+guild: 1442625447975325837
 
 # The Discord invite URL that will be shown when a player when using the /discord command or in other areas.
 discord-url: "https://discord.gg/invite-code"
@@ -38,13 +38,14 @@ discord-url: "https://discord.gg/invite-code"
 # - staff, which will send kick/mute messages
 # (note: you will need to replace the zeros with the actual channel ID you want to use)
 channels:
-  primary: 000000000000000000
-  staff: 000000000000000000
+  primary: 1442626354548838440
+  staff: 000000000
+  Private: 1442629595655307355
 
 # Should all players receive Discord messages from the primary channel, regardless of their permissions?
 # This is intended for use for people without permission plugins. If you have a permission plugin, please give your
 # players the essentials.discord.receive.primary permission.
-always-receive-primary: false
+always-receive-primary: true
 
 # Whether to use Essentials Chat events instead of normal chat event.
 # This allows you to filter chat by its type (local, question, shout).
@@ -67,7 +68,7 @@ chat:
   show-bot-messages: false
   # Whether or not to show all Minecraft chat messages that are not shown to all players.
   # You shouldn't need to enable this unless you're not seeing all chat messages go through to Discord.
-  show-all-chat: false
+  show-all-chat: true
   # A list of Discord channels which should be logged to console.
   # If you want to use the channels below, remember to uncomment the line by removing the '#' before the '-'.
   relay-to-console:
@@ -80,7 +81,7 @@ console:
   # The channel ID (or webhook URL) to send the console output to.
   # If the channel ID/webhook URL is invalid or set to 'none', the console relay will be disabled.
   # Note: If you use a channel ID, the bot must have the "Manage Webhooks" permission in Discord or else the console relay will not work.
-  channel: 000000000000000000
+  channel: 1442628651769266227
   # The format of the console message. The following placeholders can be used:
   # - {timestamp}: Timestamp in HH:mm:ss format
   # - {level}: The console logging level
@@ -141,11 +142,11 @@ message-types:
   # Message sent when the server shuts down.
   server-stop: primary
   # Message sent when a player is kicked from the Minecraft server.
-  kick: staff
+  kick: primary
   # Message sent when a player's mute state is changed on the Minecraft server.
-  mute: staff
+  mute: priimary
   # Message sent when a private message (/msg, /whisper, etc.) is sent on the Minecraft Server.
-  private-chat: none
+  private-chat: Private
   # Message sent when a player talks in local chat.
   # use-essentials-events must be set to "true" for this to work.
   local: none
@@ -158,7 +159,7 @@ message-types:
 
 # Whether or not player messages should show their avatar as the profile picture in Discord.
 # The bot will require the "Manage Webhooks" permission in the defined channels in order to use this feature.
-show-avatar: false
+show-avatar: true
 # The URL which should be used to get the avatars of users when "show-avatar" is set to true.
 # Any URL in here should only return a proper JPEG/PNG image and nothing else.
 # To include the UUID of the player in this URL, use "{uuid}".

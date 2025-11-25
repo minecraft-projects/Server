@@ -282,3 +282,7 @@ pages:
         buy: 17500
         sell: 3875
         ominous-strength: 5
+      '23':
+        material: torch
+        buy: 20.0
+        sell: 2.0

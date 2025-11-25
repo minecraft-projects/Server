@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "f4cd51cd-e670-376a-a925-5bd4f291478e",
+    "name": "thegratetminecra",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1d93c810-09b5-34aa-bdfe-0192b576d29a",
+    "name": "thegrateminecra",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

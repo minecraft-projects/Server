@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Revxrsal.Lamp</groupId>
+  <artifactId>common</artifactId>
+  <version>3.3.4</version>
+  <name>Revxrsal/Lamp</name>
+  <description>A modern annotations-driven commands framework for Java and Kotlin </description>
+  <url>https://github.com/Revxrsal/Lamp</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Revxrsal</id>
+      <name>Ali</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Revxrsal/Lamp.git</connection>
+    <developerConnection>scm:git://github.com/Revxrsal/Lamp.git</developerConnection>
+    <url>git://github.com/Revxrsal/Lamp.git</url>
+  </scm>
+</project>

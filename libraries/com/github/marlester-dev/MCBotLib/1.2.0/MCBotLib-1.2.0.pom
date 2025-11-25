@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.marlester-dev</groupId>
+  <artifactId>MCBotLib</artifactId>
+  <version>1.2.0</version>
+  <name>marlester-dev/MCBotLib</name>
+  <description>The easiest library to create Minecraft bots.</description>
+  <url>https://github.com/marlester-dev/MCBotLib</url>
+  <inceptionYear>2024</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU General Public License v3.0</name>
+      <url>https://api.github.com/licenses/gpl-3.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>marlester-dev</id>
+      <name>Marlester</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/marlester-dev/MCBotLib.git</connection>
+    <developerConnection>scm:git://github.com/marlester-dev/MCBotLib.git</developerConnection>
+    <url>git://github.com/marlester-dev/MCBotLib.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.geysermc.mcprotocollib</groupId>
+      <artifactId>protocol</artifactId>
+      <version>1.21.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
