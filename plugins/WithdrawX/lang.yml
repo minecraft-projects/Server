@@ -1,0 +1,32 @@
+# ---------------------
+# WithdrawX Language File
+# ---------------------
+
+prefix: "&7[&bWithdrawX&7] &r"        # Prefix shown before all plugin messages
+
+currency-symbol: "$"                 # Currency symbol shown in messages
+
+messages:
+  reloaded: "%prefix%&aConfiguration reloaded."
+  no-permission: "%prefix%&cYou don’t have permission to do that."
+  invalid-amount: "%prefix%&cPlease enter a valid numeric amount."
+  below-min: "%prefix%&cMinimum withdraw amount is ${currency}${min}."
+  above-max: "%prefix%&cMaximum withdraw amount is ${currency}${max}."
+  insufficient-funds: "%prefix%&cYou do not have enough money."
+  withdrawn: "%prefix%&aWithdrew ${currency}${amount} (Fee: ${currency}${fee})"
+  redeemed: "%prefix%&aRedeemed ${currency}${amount} from bank note."
+  not-a-note: "%prefix%&cThis is not a valid WithdrawX note."
+  wrong-owner: "%prefix%&cYou cannot redeem someone else's note."
+  expired: "%prefix%&cThis bank note has expired."
+  usage-withdraw: "%prefix%&7Usage: /withdraw <amount>"
+  usage-deposit: "%prefix%&7Hold a note and type /deposit to redeem it."
+  player-not-found: "%prefix%&cPlayer not found or offline."
+  admin-gave-note: "%prefix%&aGave ${player} a note worth ${currency}${amount}."
+  received-note: "%prefix%&aYou received a bank note worth ${currency}${amount}."
+
+help:
+  - "%prefix%&6WithdrawX Help Commands:"
+  - "&e/withdraw <amount> &7- Withdraw currency into a note"
+  - "&e/deposit &7- Redeem a held bank note"
+  - "&e/withdrawx reload &7- Reload plugin configuration"
+  - "&e/givebanknote <player> <amount> &7- Admin: give player a note"

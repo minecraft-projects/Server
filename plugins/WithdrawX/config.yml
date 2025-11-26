@@ -1,0 +1,38 @@
+# -----------------------
+# WithdrawX Configuration
+# -----------------------
+
+note:
+  name: "&aBank Note"                    # Display name of the bank note item
+  lore:                                 # Lore shown on the item (supports placeholders)
+    - "&7Value: &e{currency_symbol}{amount}"
+    - "&7Right-click to redeem"
+    - "&7Note ID: #${serial}"
+    - "&7Withdrawn by: &f{player}"
+  glow: true                            # Whether the note item has a glow effect
+  material: PAPER                       # Item type used for the note
+  allow-give: false                     # If false, only commands/plugins can give notes
+
+# Restricts each player to their own notes (no trading)
+restrict-player: false                 # If true, players can't redeem notes from others
+
+# Symbol used for money display
+currency-symbol: "$"
+
+# Economy limits for withdrawals
+withdraw:
+  min: 10                              # Minimum amount allowed per note
+  max: 1000000                         # Maximum amount allowed per note
+  fee-percent: 5.0                     # Fee taken as a percentage (5% of withdrawn amount)
+
+# Visual and sound effects on redeem
+effects:
+  redeem-sound: ENTITY_EXPERIENCE_ORB_PICKUP  # Sound played when redeeming a note
+  use-particle: true                          # Show particles on redeem
+  particle-type: VILLAGER_HAPPY               # Type of particle to use
+
+# Expiration for notes
+expiry:
+  enabled: true                    # If true, bank notes expire after a duration
+  default-minutes: 1440           # Default expiry time in minutes (1440 = 1 day)
+  show-expiry: true               # Display expiry info in note lore

@@ -5,16 +5,76 @@ data-version: 4|2|4556
   uniqueId: 0b444e0b-c776-44f2-8ae4-a13533146c6d
   world: world
   x: -80
-  y: 62
-  z: 149
-  yaw: 90.0
+  y: 63
+  z: 147
+  yaw: 38.97031
   type: admin
-  name: ''
+  name: afk shop
   object:
     type: villager
     baby: false
     profession: minecraft:none
-    villagerType: minecraft:plains
+    villagerType: minecraft:savanna
     villagerLevel: 1
-  recipes: {}
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4556
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4556
+        id: minecraft:lime_dye
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Afk
+            Token   ㅤ",underlined:0b}],text:""}'
+    '2':
+      resultItem:
+        DataVersion: 4556
+        id: minecraft:cooked_beef
+        count: 2
+      item1:
+        DataVersion: 4556
+        id: minecraft:lime_dye
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Afk
+            Token   ㅤ",underlined:0b}],text:""}'
+    '3':
+      resultItem:
+        DataVersion: 4556
+        id: minecraft:end_crystal
+        count: 4
+      item1:
+        DataVersion: 4556
+        id: minecraft:lime_dye
+        count: 20
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Afk
+            Token   ㅤ",underlined:0b}],text:""}'
+    '4':
+      resultItem:
+        DataVersion: 4556
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Value:
+            ",underlined:0b},{color:"yellow",italic:0b,text:"$50.00"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Right-click
+            to redeem",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Note
+            ID: #1764106828696",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Withdrawn
+            by: ",underlined:0b},{color:"white",italic:0b,text:"thegrateminecra"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Expires:
+            2025-11-26 21:55",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments"]}'
+          minecraft:enchantments: '{"minecraft:unbreaking":1}'
+          minecraft:custom_name: '{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bank
+            Note",underlined:0b}],text:""}'
+          minecraft:custom_data: '{PublicBukkitValues:{"withdrawx:withdrawx_amount":50.0d,"withdrawx:withdrawx_expiry":1764194118934L,"withdrawx:withdrawx_serial":1764106828696L,"withdrawx:withdrawx_withdrawer":"thegrateminecra"}}'
+      item1:
+        DataVersion: 4556
+        id: minecraft:lime_dye
+        count: 2
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Afk
+            Token   ㅤ",underlined:0b}],text:""}'
   snapshots: []

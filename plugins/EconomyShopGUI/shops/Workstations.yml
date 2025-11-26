@@ -49,3 +49,7 @@ pages:
         material: STONECUTTER
         buy: 8.04
         sell: 2.01
+      '13':
+        material: anvil
+        buy: 20.0
+        sell: 10.0

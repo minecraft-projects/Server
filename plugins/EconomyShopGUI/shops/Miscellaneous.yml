@@ -286,3 +286,8 @@ pages:
         material: torch
         buy: 20.0
         sell: 2.0
+      '24':
+        duration: 3
+        material: FIREWORK_ROCKET
+        buy: 10.0
+        sell: 5.0

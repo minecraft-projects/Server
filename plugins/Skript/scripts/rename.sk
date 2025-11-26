@@ -1,0 +1,22 @@
+command /rename <text>:
+    description: Rename the item in your hand using XP instead of an anvil
+    usage: /rename <new name>
+    permission: rename.use
+    permission message: &cYou don't have permission to use this command.
+    trigger:
+        set {_cost} to 0.5
+        set {_maxLength} to 30
+        if player's tool is air:
+            send "&cYou must be holding an item to rename it!"
+            stop
+        if length of arg-1 > {_maxLength}:
+            send "&cThat name is too long! Max length: %{_maxLength}% characters."
+            stop
+        if player's level < {_cost}:
+            send "&cYou need at least %{_cost}% XP levels to rename this item!"
+            stop
+        set the name of player's tool to colored arg-1
+        remove {_cost} from player's level
+        play sound "block.anvil.use" to player
+
+        send "&aYour item has been renamed to &f%colored arg-1% &a(for %{_cost}% XP levels)!"

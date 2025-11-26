@@ -1,0 +1,20 @@
+on damage:
+    if damage cause is void:
+        if victim is a player:
+            cancel event
+
+            # Teleport to default world spawn
+            set {_world} to world("world")
+            teleport victim to spawn point of {_world}
+
+            send "&aYou were saved from the void!" to victim
+
+            # Give 4 seconds (80 ticks) of no fall damage
+            set {nofall.%victim%} to true
+            wait 4 seconds
+            delete {nofall.%victim%}
+
+on damage of player:
+    if damage cause is fall:
+        if {nofall.%victim%} is true:
+            cancel event

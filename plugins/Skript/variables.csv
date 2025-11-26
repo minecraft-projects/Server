@@ -1,0 +1,10 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.13.1
+
+afk.in.1d93c810-09b5-34aa-bdfe-0192b576d29a, boolean, 01
+afk.in.9917d366-4c60-3903-858a-ea1b131ab79b, boolean, 01
+afk.time.1d93c810-09b5-34aa-bdfe-0192b576d29a, long, 000000000000004E
+afk.time.9917d366-4c60-3903-858a-ea1b131ab79b, long, 0000000000000029
+

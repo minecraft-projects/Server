@@ -1,0 +1,6 @@
+This file logs every player that disconnected during combat
+You can disable the logging in the config file
+
+[2025/11/25 21:34:49] killerzombie570 tried to escape combat! (3.889s left) | In combat with: [thegrateminecra] | World:world, X:-90.21, Y:62.00, Z:155.37
+[2025/11/25 21:43:36] killerzombie570 tried to escape combat! (3.704s left) | In combat with: [thegrateminecra] | World:world, X:58.84, Y:69.00, Z:470.67
+[2025/11/25 21:45:13] killerzombie570 tried to escape combat! (4.012s left) | In combat with: [thegrateminecra] | World:world, X:61.15, Y:68.00, Z:459.50

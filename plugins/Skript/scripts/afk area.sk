@@ -1,0 +1,32 @@
+every 1 second:
+    loop all players:
+        if "%region at loop-player%" contains "afk":
+            
+            # Player just entered AFK zone
+            if {afk.in.%loop-player%} is not true:
+                set {afk.in.%loop-player%} to true
+                set {afk.time.%loop-player%} to 120 # 2 minutes
+                send title "&aEntered AFK Zone" to loop-player
+                send subtitle "&a2 -minute countdown started" to loop-player
+                message "&aYou are now in AFK. Stay here to earn rewards." to loop-player
+            
+            # Countdown
+            subtract 1 from {afk.time.%loop-player%}
+            
+            # Reward time
+            if {afk.time.%loop-player%} <= 0:
+                play sound "entity.experience_orb.pickup" with volume 3 to loop-player
+                give lime dye named "&aAfk Token   ㅤ" to loop-player
+                
+                # Reset timer for another 2 minutes
+                set {afk.time.%loop-player%} to 120
+                message "&aYou received an AFK Token! Next reward in 2 minutes." to loop-player
+        
+        else:
+            # Player left AFK zone
+            if {afk.in.%loop-player%} is true:
+                send title "&cExited AFK Zone" to loop-player
+                send subtitle "&cYou are no longer afk" to loop-player
+                message "&cYou left the AFK area. Timer reset." to loop-player
+                delete {afk.in.%loop-player%}
+                delete {afk.time.%loop-player%}
